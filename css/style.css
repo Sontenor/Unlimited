@@ -1,0 +1,861 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+.participation {
+	background: url(../img/3-layers.png) 0 0 no-repeat;
+	height: 1103px;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+}
+.participation>img {
+	position: absolute;
+}
+.planet {
+	width: 7%;
+	top: 31%;
+	right: 6%;
+}
+.satellite {
+	width: 11%;
+	left: 9%;
+	top: 14%;
+}
+.human {
+	left: 29%;
+	bottom: 14px;
+}
+h1 {
+	text-align: center;
+	padding-top: 54px;
+	color: #fff;
+	font-family: "Gotham Pro";
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 74px;
+	margin: 0 auto;
+}
+.discount {
+	color: #fff;
+	font-family: "Gotham Pro";
+	font-size: 30px;
+	text-align: center;
+	margin-top: 18px;
+}
+.way {
+	color: #b6f1ff;
+	font-family: "Gotham Pro";
+	font-size: 42px;
+	margin-left: 51%;
+	margin-top: 85px;
+}
+.unlimited {
+	color: #fff;
+	font-family: "Gotham Pro";
+	font-size: 30px;
+	line-height: 48px;
+	margin-left: 51%;
+	margin-top: 85px;
+}
+.info__link {
+	color: #fff;
+	font-family: 'Gotham Pro Black';
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #ff1744;
+	border-radius: 5px;
+	letter-spacing: 0.8px;
+	padding: 27px 32px;
+	display: inline-block;
+	margin-left: 51%;
+	margin-top: 5%;
+	transition: .5s;
+}
+.participation__info-link {
+	position: relative;
+}
+.info__link:hover,
+.practic__link:hover,
+.price__link:hover {
+	background: #1198b6;
+	transition: .5s;
+	color: #fff;
+}
+
+/*CAUSES*/
+
+h2 {
+	text-align: center;
+	font-size: 48px;
+	font-family: "Gotham Pro";
+	margin-top: 66px;
+	font-weight: 500;
+}
+.reason-content {
+	text-align: center;
+	margin-top: 66px;
+}
+.reason {
+	display: inline-block;
+	width: 168px;
+	line-height: 25px;
+	margin-bottom: 72px;
+	margin: 25px 57px;
+}
+.title {
+	font-size: 20px;
+	font-family: "Gotham Pro";
+	font-weight: 500;
+}
+.icon {
+	padding-bottom: 17px;
+}
+.text {
+	font-family: "Gotham Pro Medium";
+	font-size: 18px;
+}
+
+/*Events*/
+
+.events {
+	background: #f5f5f5;
+}
+.event {
+	border-bottom: 1px solid #d0d8dc;
+}
+.events_title {
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 22px;
+	margin-bottom: 18px;
+	color: #4f4f4f;
+	padding-top: 71px;
+}
+.events_description {
+	text-align: center;
+	margin-bottom: 65px;
+	font-family: "Gotham Pro";
+	font-size: 24px;
+	line-height: 22px;
+	color: #7c7c7c;
+}
+.left_image {
+	float: left;
+	margin-right: 117px;
+	margin-left: 86px;
+	padding-bottom: 80px;
+}
+.right_image {
+	float: right;
+	margin-left: 117px;
+	margin-right: 86px;
+	padding-bottom: 80px;
+}
+.event_content,.event_content-right {
+	margin-top: 70px;
+	padding-top: 50px;
+}
+h4 {
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 400;
+	color: #484848;
+	margin: 0;
+}
+.subtitle,.liberty_subtitle {
+	font-family: "Gotham Pro";
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #717171;
+	margin-bottom: 60px;
+	margin-top: 28px;
+}
+.event_text {
+	color: #717171;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 29px;
+	margin: 0;
+}
+.event_content-right {
+	text-align: right;
+}
+.method {
+	padding-bottom: 54px;
+}
+
+/* PRAKTIC */
+
+.practics {
+	text-align: center;
+}
+.practic {
+	display: inline-block;
+	text-align: center;
+	padding-top: 79px;
+	margin: 0 100px;
+}
+.practic_title {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+}
+.practic_text {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.practic__link, .price__link {
+	color: #ff1744;
+	font-family: 'Gotham Pro Black';
+	font-size: 24px;
+	text-transform: uppercase;
+	border: 3px solid #ff1744;
+	text-decoration: none;
+	background-color: #fff;
+	border-radius: 7px;
+	letter-spacing: 0.8px;
+	padding: 24px 30px;
+	display: inline-block;
+	transition: .5s;
+	margin: 76px 55px 81px 0;
+}
+
+/* LIBERTYS */
+
+.libertys {
+	background: #fafafa;
+	position: relative;
+}
+.ball {
+	position: absolute;
+	top: -92px;
+}
+.liberty_title {
+	padding-top: 81px;
+	position: relative;
+}
+
+.liberty_subtitle {
+	text-align: center;
+}
+.wonders {
+	display: block;
+	margin: 0 auto;
+	padding-top: 76px;
+}
+.formula {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 81px;
+}
+.liberty_text {
+	font-family: "Gotham Pro";
+	font-weight: 300;
+	color: #9d9d9d;
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 50px;
+}
+.gift {
+	background: #ff1744;
+	border-radius: 5px;
+	padding: 10px 18px;
+	color: #fff;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 500;
+	position: absolute;
+	top: 88px;
+	right: 94px;
+}
+.gift:before {
+	content: "";
+	position: absolute; 
+	right: 100%; 
+	top: calc(73% - 14px);
+	border-top: 5px solid transparent;
+	border-right: 6px solid #ff1744;
+	border-bottom: 5px solid transparent;
+	padding-left: 23px;
+}
+
+/* VIDEO */
+
+.video {
+	text-align: center;
+	border-bottom: 1px solid #d0d8dc;
+	padding: 50px 0;
+}
+
+/*VARIANTS*/
+.variants__unlimited {
+	text-align: center;
+	border-bottom: 1px solid #d0d8dc;
+}
+.variants__unlimited-item {
+	display: inline-block;
+	margin: 0px 46px;
+	cursor: pointer;
+	position: relative;
+}
+.variants__unlimited-text {
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #a3a3a3;
+	padding-bottom: 9px;
+}
+.variants__unlimited-item.active:after {
+	content: "";
+	display: inline-block;
+	height: 7px;
+	width: 100%;
+	background: #ff1744;
+	border-radius: 3px;
+	position: absolute;
+	bottom: -4px;
+	left: 1px;
+}
+.variants__content-imgWrapper {
+	float: left;
+	width: 50%;
+	padding-top: 142px;
+}
+.variants__content-title {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 400;
+	padding-top: 118px;
+	padding-bottom: 70px;
+}
+.variants__content-listText {
+	color: #ff1744;
+	padding-bottom: 23px;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+}
+span {
+	color: #828282;
+}
+
+
+/* PRICE */
+
+.price__title {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 36px;
+	font-weight: 400;
+}
+.price__subtitle {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 73px;
+}
+.price__timeWrapper {
+	text-align: center;
+}
+.price__time {
+	display: inline-block;
+	text-align: center;
+	padding: 27px 20px;
+}
+.price__time-text {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+}
+.price__linkWrapper {
+	text-align: center;
+	margin-left: 65px;
+}
+.price__time-hours, .price__time-minutes, .price__time-seconds {
+	background: #ff1744;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 500;
+}
+.price__time-hours {
+	padding: 12px 26px;
+}
+.price__time-minutes {
+	padding: 12px 15px;
+}
+.price__time-seconds {
+	padding: 12px 9px;
+}
+
+/* PAYMENT */
+.payment {
+	background: #fafafa;
+}
+.ways__title {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 500;
+	padding: 74px 0;
+	margin: 0;
+}
+.ways__text {
+	font-weight: 300;
+	line-height: 30px;
+	font-family: "Gotham Pro";
+	color: #838383;
+	margin: 0;
+}
+.ways__subtitle {
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+	margin: 0;
+}
+
+.ways__paument-item1 {
+	background:url(../img/icon/money427.png) no-repeat;
+	background-position: 186px;
+	padding-left: 25%;
+	margin-bottom: 35px;
+}
+
+.ways__paument-item2 {
+	background:url(../img/icon/calendars12.png) no-repeat;
+	background-position: 186px 35px;
+	padding-left: 25%;
+	padding-bottom: 50px;
+}
+
+.ways__link {
+	color: red;
+	font-family: "Gotham Pro";
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.ways__link:hover {
+	color: #3f51b5;
+}
+/* GETUNLIMITED */
+
+.getunlimited {
+	padding-bottom: 50px;
+}
+.getunlimited__title {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 500;
+}
+.getunlimited__step {
+	text-align: center;
+	border-bottom: 1px solid #d0d8dc;
+}
+.getunlimited__step-blocks {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin: 57px 66px;
+	cursor: pointer;
+}
+
+.getunlimited__step-blocks.active:active p {
+	color: #ff1744;
+}
+
+.getunlimited__step-row {
+	position: absolute;
+	bottom: 160px;
+	right: -85px;
+	cursor: auto;
+}
+.getunlimited__step-img {
+	display: inline-block;
+	background: #ff1744;
+	border-radius: 50px;
+	padding: 21px 28px;
+}
+.getunlimited__step-subtitle {
+	font-family: "Gotham Pro";
+	font-size: 20px;
+	font-weight: 500;
+}
+.getunlimited__step-text {
+	font-family: "Gotham Pro";
+	font-weight: 300;
+	color: #858585;
+	line-height: 27px;
+}
+.stion__title {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 48px;
+	font-weight: 500;
+}
+.question__subtitle {
+	background:url(../img/icon/question-mark2.png) no-repeat;
+	background-position: 193px;
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 20px;
+	font-weight: 500;
+	padding: 44px 23%;
+}
+.question__text {
+	color: #333333;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-left: 195px;
+	width: 85%;
+}
+
+/* POLITICS */
+
+.politics {
+	background: #303f9f;
+	height: 200px;
+}
+.politics_text {
+	text-align: center;
+	color: #ffffff;
+	font-family: "Gotham Pro";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-top: 77px;
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+
+@media (max-width: 1200px) {
+	.human {
+		display: none;
+	}
+
+	.planet {
+		top: 6%;
+	}
+
+	.way {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.unlimited {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.satellite {
+		left: 7%;
+		top: 1%;
+	}
+
+	.info__link {
+		position: absolute;
+		left: -189px;
+		bottom: -170px;
+	}
+
+	.event {
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.event_text {
+		font-size: 27px;
+		line-height: 44px;
+	}
+
+	.left_image {
+		float: none;
+		left: -189px;
+		bottom: 291px;
+		margin: 0;
+		padding: 0;
+	}
+	.subtitle {
+		line-height: 45px;
+	}
+
+	.right_image {
+		float: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.event_content-right {
+		text-align: center;
+	}
+
+	.event_yellow.clearfix {
+		text-align: center;
+		padding-top: 50px;
+		font-size: 33px;
+	}
+
+	.practic_text {
+		padding-bottom: 50px;
+	}
+
+	.practic__link {
+		margin: 0;
+	}
+
+	.gift {
+		right: 35px;
+	}
+
+	.liberty_text {
+		font-size: 30px;
+	}
+
+	.variants__unlimited-item {
+		margin: 0px 34px;
+	}
+
+	.ways__subtitle {
+		font-size: 30px;
+	}
+
+	.ways__text {
+		font-size: 25px;
+		line-height: 55px;
+	}
+
+	.ways__paument-item1 {
+		background-position: 135px;
+	}
+
+	.ways__paument-item2 {
+		background-position: 135px 35px;
+	}
+
+	.ways__link {
+		font-size: 30px;
+	}
+
+	.getunlimited__step-blocks {
+		margin: 57px 40px;
+	}
+
+	.getunlimited__step-row {
+		right: -60px;
+	}
+
+	.question__subtitle {
+		background-position: 160px
+	}
+
+	.question__text {
+		padding-left: 157px;
+		width: 97%;
+	}
+}
+
+
+
+
+@media (max-width: 992px) {
+
+	h1 {
+		font-size: 44px;
+		line-height: 57px;
+	}
+
+	.reason {
+		width: 33%;
+	}
+
+	.discount {
+		font-size: 22px;
+	}
+
+	.way {
+		font-size: 33px;
+	}
+
+	.unlimited {
+		font-size: 26px;
+		line-height: 40px;
+	}
+
+	.ball {
+		display: none;
+	}
+
+	.gift {
+		display: none;
+	}
+
+	.wonders {
+		width: 72%;
+	}
+
+	.variants__content-title {
+		font-size: 36px;
+		padding-top: 37px;
+		padding-bottom: 51px;
+	}
+
+	.variants__content-listText {
+		padding-bottom: 14px;
+	}
+
+	.variants__unlimited-item {
+		width: 33%;
+	}
+
+	.ways__paument-item1 {
+		background-position: 75px;
+	}
+
+	.ways__paument-item2 {
+		background-position: 75px 35px;
+	}
+
+	.ways__text {
+		padding-top: 20px;
+	}
+
+	.getunlimited__step-row {
+		display: none;
+	}
+
+	.getunlimited__step-blocks {
+		width: 31%;
+	}
+
+	.getunlimited__step-text {
+		font-size: 25px;
+	}
+
+	.getunlimited__step-subtitle {
+		font-size: 27px;
+	}
+
+	.question__text {
+		padding-left: 55px;
+		font-size: 24px;
+	}
+
+	.question__subtitle {
+		font-size: 25px;
+		background-position: 64px;
+	}
+
+}
+
+
+@media (max-width: 765px) {
+	.events_title{
+		line-height: 54px;
+	}
+
+	.variants__unlimited-item {
+		width: 33%;
+		font-size: 24px;
+	}
+
+	.variants__content-imgWrapper{
+		padding-top: 142px;
+		display: none;
+	}
+
+	.variants__content-title {
+		text-align: center;
+	}
+
+	.variants__content-listText {
+		font-size: 27px;
+		line-height: 35px;
+	}
+
+	.ways__paument-item1 {
+		background-position: 0px;
+	}
+
+	.ways__paument-item2 {
+		background-position: 0 35px;
+	}
+}
+
+@media (max-width: 461px) {
+
+	.question__subtitle {
+		background: none;
+	}
+
+	.left_image {
+		width: 65%;
+	}
+
+	.right_image {
+		width: 65%;
+	}
+}
